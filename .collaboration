@@ -192,7 +192,16 @@
   },
   {
     "ModuleName": "ServerCommand/服务AB",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "emma.zhao@developertools.com"
+    },
+    "LockDateTime": "2023-06-06T18:26:04.90727+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\服务AB.json"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
