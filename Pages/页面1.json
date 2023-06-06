@@ -5,16 +5,139 @@
   "Cols": {
     "Count": 60
   },
+  "Values": {
+    "4,6": "box",
+    "10,6": "服务AB"
+  },
+  "AttachInfos": {
+    "4,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "CellDefaultValue": "box"
+      }
+    },
+    "4,26": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "77dbb5785a374e998f9a3fd32a10fac",
+        "DataSourceType": 1,
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "OneDriveServerFolderPath",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "OneDriveServerFolderPath",
+                "ColumnName": "ID",
+                "GUID": "67c90fb9-d774-4198-ab4f-56caa127d2bc"
+              },
+              "ColumnName": "ID"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "OneDriveServerFolderPath",
+                "ColumnName": "CloudFilePath",
+                "GUID": "726998ce-b44a-48c1-a389-0d753228305f"
+              },
+              "ColumnName": "CloudFilePath"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "OneDriveServerFolderPath",
+                "ColumnName": "FGC_Creator",
+                "GUID": "c1114db7-c691-4f95-8c40-26b2d229c910"
+              },
+              "ColumnName": "创建者"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "OneDriveServerFolderPath",
+                "ColumnName": "FGC_CreateDate",
+                "GUID": "71fa1083-df95-49d4-aae4-b9f404b1c1e4"
+              },
+              "ColumnName": "创建日期"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "OneDriveServerFolderPath",
+                "ColumnName": "FGC_LastModifier",
+                "GUID": "3bb65145-0190-4897-a0fb-0d78bfa0e2ba"
+              },
+              "ColumnName": "最后更新者"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "OneDriveServerFolderPath",
+                "ColumnName": "FGC_LastModifyDate",
+                "GUID": "8839f0c5-05df-40ca-9945-9c93b3f72fec"
+              },
+              "ColumnName": "最后更新日期"
+            }
+          ],
+          "IsListviewDataSource": true
+        },
+        "DataSourceListviewName": "图文列表表格1",
+        "TemplateKey": "_RS_Selectable"
+      }
+    },
+    "10,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "服务AB",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "参数1",
+                "Remark": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "服务AB",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
   "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "HorizontalAlignment": 1
+      }
+    ],
     "Types": {
       "Strs": [
+        "@",
+        "Center",
         "Body"
       ]
     },
+    "CellStyles": {
+      "4,6": 0,
+      "4,26": 1
+    },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 2
     }
   },
+  "Spans": [
+    "4,6,5,17",
+    "10,6,2,9",
+    "4,26,16,25"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "PermissionData": {
@@ -38,4 +161,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//nyH2/fVPrljpQh9LDVH5aCa+l5k1zGMWzDWqKXPMopeVe4Xr4NFiJUI7bmwERiFP/wDDrWESx/QMUIIhkAByxVjKOsuohTIbhIXWkr5k7UtPt0su0f4aotJrBrZV6G9XWy86LxKg7G0Q/ejdvT/otCCuJi0DqiQAcTKsG7XrIDVTBw0ElyGGUTreIkU4ceQ8cJg13dvOiIPWrvwRWrmZZQnxHtg8PBK3oSQb/YchoLuKuAk1uhfeknDHJH7atADVFJygIa5maBwlKGUX3PPas06H0KJWEI0ASYPHeCVtmwGnl8yn1re/qYIUqGiknXCS64ma0CuaNCUFMEM7Vp6Xd954YEUCWF9buWTZ9vlzwK1CRYlQDp5T37dvU66AlWLcaC2bRRQ1wQbqU8ekdYaSdJ4hEhjr+wZ+8hgn2JmgFdgwVSwUIeFzT7U/LBIiv8JUL1+Ur96V5HJq3JdWdrq5UgH2A7DgDxhJ1AwaR65M6crHKmzgd6p8nI8Mu/SCwseF0tJpZM2tvTmHdQPc5tu40jZuxLfm6Si3hWmyGJrmdMwJChGKrdCElgNDXskp+vEwUwz+juiUuKB8E+C3WBYur9MENXoZJbvGSB+AWq6FCPr7GgVMqSZLts4MTxrvJgsnOcM9tksXARL6QW6jnoI6QUNVhZ3JZsqgKT+byOrVeKW7BZQjB2nAzAgNTJcX8HoleBnh8aOYUzDR/h3iYsIZGTEBVF+On+/nLGBT7Mm/c+Q2T11Nr0cLIMsi9SEo7iETzG65bzL8Uk6InwmO6MzG0NaF3EveADSgFmrooOS45LNdbJxSFpJHSBd2F8Yc4YBTe/7z6YQYRCMHVsrtAktU//Rq7HTs78pW8Mq4pZUbn1QJ5+qXZu1bGcVCCIMzoNQAhjoE2Q0k240b3WKiCLaWGw==|920
+}//baJDheYIL2QiKACj3Xzdw3rMQE5OlqszevhK4h75hKCxIKxHR6dvqCxD3K9jPhVJq6lwOMqQP1yHMTQtwBeM/PjGBd6ou/2fFkq/rw/YSDFpZJTgLlBzzyiHgycUaBQVzqbG9ubd8bLpN/8Xnas1+nFtkQlNSteb/MjDDhIGI8JO+30RvxHIrzT32qVm+HSSAiWzvqi4xS/9u/LJGnHwMrRyGjx3wrjhEDDC4pjjQMWb9ToGmURDVSJhF6HHsB/tIe6iqBkpGC9dQuRsc7IAwujZyoc11NQ3BwGaQYBo3NQWFnLdJfE3SHVKxomk0FU+ojlN1A8oAH5O/fNu1/mwMD04rDoGoUTyWWgcF/4fMTu/FSdN+vIeR99lFQXJlCUbKO2pmGuyoC/WFWjLd8fpxTGcMj/ABPm/mBT5gZQAlQuo+46j2WYUaK5RybU5x1PV4bE7WdgqrGS4OzQrc9BVfxa57JyGG3NgdfIA4rljGx8Q/Psybni+/eaVI9PFbGWghWGX8qkImlWDon08UkdFKnbdVgL19KXYjl+OONuYCP3y4fJmHdXsmKIXdLGWxU4mxXjfKayKwj7XzYs7RVInt76tZ8ub/j4gsWIIwgb9GZF8FLHiduSRXKzT9xfyPdQZcluqZbScuXw7sdjLa9rve4n60p8ovP2cb3oMQSrJ+4tx0BWb8gHE/WvgBtzkYm64qEox1122gZgfx9d0wtGZoaPi3miBUT74kDQezEJqO4mRt8o2Gx0CEw+voRTHIV3OPySHPTzjgixfs+ezuQpE2W/fCII1OFj/9/+7Rfh6bVRP+YDHi2SpzFiEh7vnmIkt/AIXonu0fW2/Ze5HiWDew9JE4cQB9W0Bw0qc8XJZf1OxU1C3CFO+U9LmsPl9ya6b4b7I7qKGi9PlReATp7a72Q==|920

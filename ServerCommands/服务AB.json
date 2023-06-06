@@ -1,5 +1,6 @@
 {
   "Name": "服务AB",
+  "Description": "发布设置\r\n",
   "Enabled": true,
   "Triggers": [
     {

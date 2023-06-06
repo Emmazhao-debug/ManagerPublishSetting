@@ -1,0 +1,117 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 60.0
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,0,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//qrTVGInUeffWYkZNK08N9VAMYNn0B8pflrbZiBuOXqXwWc4/RdTS4rKRYncPxCGAB8CvnpGHcVBoVdH8B4NiU/VUc/yoPHrqUKA0UUWCtjdbHeDyqC52t6Bb9GeDDbb+ytDaU2FdlWzzj2cCyWU9880CPEPXxrL+ySkZiBseJm3+CzNDRB5HYioS0rQWMAyXnY6XXyRRoWKLC7CyZMfy4+VXb+dCeTjUHmokVEjJ5xzIjF6gRkLiEQGHSbuZ3NcCOdq+1H6gMwKdBVvVG7jMng0UAFQSyZIy+3DqkclbsuCfMVni/zTjAwNPojLNUtKm/NpdDdWaQMVeGuMOEOAYqRfAhvOQvuIof8ocrPQGx+GN3GS9qYYN8H/0RnOiprhzKgTTzAO09bUXybEkKh6H8ZaSe9249JvuBPe/W7Lln5h561RdSmOFrkxhEv2ngGrsxGiohEUT/Kh0xb4E5yDcFcq/d4K+BCYr6QVS/D2QvjUXjd/7ARkDZT0fSZEu3Hp7V1yrPWP+5bjYIb4ukGknBf+C+l32+BlGaI6ZER62tBi9GCHZDB1Nfbl5v548w29ruXZudKdP+oM3XeIa7xIUpd41IysXKjF6JpoDVhF6ohxTMb+qEPs+OrHwkrhOTKUqGwWba2tHMJ4Xhs97rw5ZqRZQrSSzuZ0AlluEpqHRG60B6biQkywdDnZxoqXJU311d+0i88loIuHcuVeccTzZlw1GSxjn/jgHF1NmG5zn6QVVBN/zYBS8jk+Uwv7/vdIBJEfXGU+YHhNGoL5G12VusAlg33r0XJ6mHNep7Lwu0BiRdG0xa/2tIxXtaduV7QhoiQLh9mDruJDCQ3nnTDarmPwnfsZE2FFy+HyY6AvHAxqZhofAl6LAGawONQIegBPI2y1yowSnuPp1WyRgves/Ag==|920

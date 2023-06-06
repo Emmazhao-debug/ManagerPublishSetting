@@ -48,6 +48,21 @@
     }
   },
   {
+    "Name": "不要发布",
+    "ApplicationUrl": "http://case.huozigecloud.cn/ssssss",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "IsCloudServer": true,
+      "ServerName": "case.huozigecloud.cn",
+      "UserName": "aaaa",
+      "SitePort": 80,
+      "AppName": "ssssss",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
     "Name": "沙盒发布设置",
     "ApplicationUrl": "http://3d6c210d-449a-49a2-9bc8-8a82cd072691/Linux应用设置",
     "Remark": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
@@ -63,8 +78,9 @@
     }
   },
   {
-    "Name": "发布设置2",
+    "Name": "IP设置发布",
     "ApplicationUrl": "http://10.32.2.241/publish setting 01",
+    "Remark": "将Servermachine 修改成IP地址\r\n\r\nThird-part",
     "PublishSettings": {
       "IsPrivateServer": true,
       "ServerName": "10.32.2.241",
@@ -128,21 +144,6 @@
       "UserName": "Administrator",
       "SitePort": 80,
       "AppName": "试用版本",
-      "AppStartPage": "",
-      "TakeServeronline": true,
-      "PublishRolesToServer": true
-    }
-  },
-  {
-    "Name": "发布设置6",
-    "ApplicationUrl": "http://case.huozigecloud.cn/ssssss",
-    "PublishSettings": {
-      "IsPrivateServer": true,
-      "IsCloudServer": true,
-      "ServerName": "case.huozigecloud.cn",
-      "UserName": "aaaa",
-      "SitePort": 80,
-      "AppName": "ssssss",
       "AppStartPage": "",
       "TakeServeronline": true,
       "PublishRolesToServer": true
