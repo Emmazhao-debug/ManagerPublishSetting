@@ -1,0 +1,79 @@
+{
+  "Name": "导出页面到PDF",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "filepath",
+          "Remark": "导出PDF之后文件的指定路径"
+        },
+        {
+          "Name": "imagecell",
+          "Remark": "导出页面上的图片单元格"
+        },
+        {
+          "Name": "attachmentcell",
+          "Remark": "导出页面上的附件单元格\r\n绑定第一条记录的数据"
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+      "TargetPageName": "附件",
+      "ServerExportFileName": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=filepath"
+      },
+      "ExportCellValueInfos": [
+        {
+          "CellName": "imagecell",
+          "CellValue": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=imagecell"
+          }
+        },
+        {
+          "CellName": "attachmentcell",
+          "CellValue": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=attachmentcell"
+          }
+        }
+      ],
+      "ExportListViewCurrentRowInfos": [
+        {
+          "BindingTable": "附件上传表",
+          "CurrentRowCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "附件上传表",
+              "ColumnName": "ID",
+              "GUID": "4d546596-9d44-41c7-8d51-a6efc2aa471d"
+            },
+            "Value": "1"
+          }
+        }
+      ]
+    }
+  ]
+}

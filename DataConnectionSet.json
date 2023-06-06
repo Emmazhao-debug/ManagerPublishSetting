@@ -1,0 +1,7 @@
+[
+  {
+    "ConnectionString": "Server=xa-dd3-fs16ms8;User ID=AutoTest;Password=xA20200326;Database=testdb;Port=3306",
+    "DataBaseType": 6,
+    "ID": "MySql1"
+  }
+]

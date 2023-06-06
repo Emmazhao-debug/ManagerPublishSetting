@@ -1,0 +1,196 @@
+{
+  "Name": "getcloudfileinfo",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "targetfile",
+          "TestData": "CloudStorageAttachment/73671b7c-c155-402d-ae65-033354385afc_五十音图.medium.jpg"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "OperateFilesCommand.CloudStorage.GetFileInformation, OperateFilesCommand",
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=targetfile"
+      },
+      "ToParameterName": "filename",
+      "Type": "华为云存储"
+    },
+    {
+      "$type": "OperateFilesCommand.CloudStorage.GetFileInformation, OperateFilesCommand",
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=targetfile"
+      },
+      "FileInfomationType": 1,
+      "ToParameterName": "fileextension",
+      "Type": "华为云存储"
+    },
+    {
+      "$type": "OperateFilesCommand.CloudStorage.GetFileInformation, OperateFilesCommand",
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=targetfile"
+      },
+      "FileInfomationType": 2,
+      "ToParameterName": "folderpath",
+      "Type": "华为云存储"
+    },
+    {
+      "$type": "OperateFilesCommand.CloudStorage.GetFileInformation, OperateFilesCommand",
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=targetfile"
+      },
+      "FileInfomationType": 3,
+      "ToParameterName": "createdatetime",
+      "Type": "华为云存储"
+    },
+    {
+      "$type": "OperateFilesCommand.CloudStorage.GetFileInformation, OperateFilesCommand",
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=targetfile"
+      },
+      "FileInfomationType": 4,
+      "ToParameterName": "lastmodifydatetime",
+      "Type": "华为云存储"
+    },
+    {
+      "$type": "OperateFilesCommand.CloudStorage.GetFileInformation, OperateFilesCommand",
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=targetfile"
+      },
+      "FileInfomationType": 5,
+      "ToParameterName": "exist",
+      "Type": "华为云存储"
+    },
+    {
+      "$type": "OperateFilesCommand.CloudStorage.GetFileInformation, OperateFilesCommand",
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=targetfile"
+      },
+      "FileInfomationType": 6,
+      "ToParameterName": "filesize",
+      "Type": "华为云存储"
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "filename",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=filename"
+          },
+          "Remark": ""
+        },
+        {
+          "ReturnPropertyName": "fileextension",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=fileextension"
+          },
+          "Remark": ""
+        },
+        {
+          "ReturnPropertyName": "folderpath",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=folderpath"
+          },
+          "Remark": ""
+        },
+        {
+          "ReturnPropertyName": "createdatetime",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=createdatetime"
+          },
+          "Remark": ""
+        },
+        {
+          "ReturnPropertyName": "lastmodifydatetime",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=lastmodifydatetime"
+          },
+          "Remark": ""
+        },
+        {
+          "ReturnPropertyName": "exist",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=exist"
+          },
+          "Remark": "不知道这个是干嘛的"
+        },
+        {
+          "ReturnPropertyName": "filesize",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=filesize"
+          },
+          "Remark": ""
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": [
+    {
+      "Name": "filename",
+      "Remark": ""
+    },
+    {
+      "Name": "fileextension",
+      "Remark": ""
+    },
+    {
+      "Name": "folderpath",
+      "Remark": ""
+    },
+    {
+      "Name": "createdatetime",
+      "Remark": ""
+    },
+    {
+      "Name": "lastmodifydatetime",
+      "Remark": ""
+    },
+    {
+      "Name": "exist",
+      "Remark": "不知道这个是干嘛的"
+    },
+    {
+      "Name": "filesize",
+      "Remark": ""
+    }
+  ]
+}

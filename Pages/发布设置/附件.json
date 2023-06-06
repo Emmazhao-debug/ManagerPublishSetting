@@ -1,0 +1,716 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      }
+    },
+    "Count": 45,
+    "DefaultSize": 25.0
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,3": "PDF",
+    "1,9": "Excel",
+    "1,15": "Export(server)",
+    "1,31": "清除表数据",
+    "1,47": "update",
+    "1,54": "Add",
+    "2,3": "上传附件到Cloud",
+    "2,15": "D:\\download01\\CloudStorage.pdf",
+    "2,39": "图片上传",
+    "3,49": "名称信息",
+    "9,39": "附件",
+    "16,3": "return code",
+    "17,3": "return message",
+    "19,3": "Image Editor Change:"
+  },
+  "AttachInfos": {
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "PDF",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "Excel",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,15": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出页面到PDF",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "filepath",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=附件!P3"
+                },
+                "Remark": "导出PDF之后文件的指定路径"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "imagecell",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=附件!imagecell"
+                },
+                "Remark": "导出页面上的图片单元格"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "attachmentcell",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=附件!attachmentcell"
+                },
+                "Remark": "导出页面上的附件单元格\r\n绑定第一条记录的数据"
+              }
+            ],
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "=附件!I17"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "=附件!J18"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "Export(server)",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,31": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "附件上传表",
+            "UpdateType": "delete",
+            "ShowConfirm": true,
+            "ConfirmText": "Are you sure you want to delete?",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 1,
+              "ColumnBindingInfo": {
+                "TableName": "附件上传表",
+                "ColumnName": "ID",
+                "GUID": "ed35f18b-2366-46af-9499-795752d195bd"
+              },
+              "Value": "%Null%"
+            }
+          }
+        ],
+        "Text": "清除表数据",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,47": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "附件上传表",
+            "ShowConfirm": false
+          }
+        ],
+        "Text": "update",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,54": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "附件上传表",
+            "UpdateType": "add",
+            "ShowConfirm": false
+          }
+        ],
+        "Text": "Add",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,15": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "D:\\download01\\CloudStorage.pdf",
+            "DisplayValue": "D:\\download01\\CloudStorage.pdf"
+          },
+          {
+            "Value": "/tmp/forguncybuilder/serverexport.pdf",
+            "DisplayValue": "/tmp/forguncybuilder/serverexport.pdf"
+          },
+          {
+            "Value": "Item3",
+            "DisplayValue": "Item3"
+          }
+        ],
+        "CellDefaultValue": "D:\\download01\\CloudStorage.pdf"
+      }
+    },
+    "3,3": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "附件上传表",
+        "RowIndex": 3,
+        "ColumnIndex": 3,
+        "RowCount": 13,
+        "ColumnCount": 34,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2
+      }
+    },
+    "3,39": {
+      "BindingInfo": {
+        "TableName": "附件上传表",
+        "ColumnName": "Image",
+        "GUID": "818f81f7-c47e-4ffd-8f0c-03bda0b32273",
+        "IsImagePath": true
+      },
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "UploadImageLimit": {
+          "AllowExtensions": ".png, .jpeg, .jpg, .bmp, .gif, .ico"
+        }
+      }
+    },
+    "4,3": {
+      "BindingInfo": {
+        "TableName": "附件上传表",
+        "ColumnName": "ID",
+        "GUID": "441ca1ff-180c-428b-ac5a-ef8c43b6a42c"
+      }
+    },
+    "4,8": {
+      "BindingInfo": {
+        "TableName": "附件上传表",
+        "ColumnName": "Text",
+        "GUID": "b7290fae-0590-47a5-a55a-072409116841"
+      }
+    },
+    "4,16": {
+      "BindingInfo": {
+        "TableName": "附件上传表",
+        "ColumnName": "Attachment",
+        "GUID": "23d13300-27f4-4dbc-8285-6977cf0a0a0a"
+      },
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon"
+      }
+    },
+    "4,29": {
+      "BindingInfo": {
+        "TableName": "附件上传表",
+        "ColumnName": "Image",
+        "GUID": "adb2787f-9f03-4b59-8229-bee4ce33768f",
+        "IsImagePath": true
+      },
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "UploadImageLimit": {
+          "AllowExtensions": ".png, .jpeg, .jpg, .bmp, .gif, .ico"
+        }
+      }
+    },
+    "4,49": {
+      "BindingInfo": {
+        "TableName": "附件上传表",
+        "ColumnName": "Text",
+        "GUID": "00e0dfe0-ceef-4600-aa66-b69aedcee062"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "10,39": {
+      "BindingInfo": {
+        "TableName": "附件上传表",
+        "ColumnName": "Attachment",
+        "GUID": "0ef5de43-9229-4208-be54-b9075d62a79b"
+      },
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "17,9": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "20,3": {
+      "BindingInfo": {
+        "TableName": "附件上传表",
+        "ColumnName": "ImageEditor",
+        "GUID": "196e9af5-2c7f-4e54-a66e-178d4ef7aa26"
+      },
+      "CellType": {
+        "$type": "ImageEditor.ImageEditor, ImageEditor",
+        "Menu": [
+          {},
+          {
+            "Name": 1
+          },
+          {
+            "Name": 2
+          },
+          {
+            "Name": 3
+          },
+          {
+            "Name": 4
+          },
+          {
+            "Name": 5
+          },
+          {
+            "Name": 6
+          }
+        ],
+        "ControlButtons": [
+          {},
+          {
+            "Name": 1
+          },
+          {
+            "Name": 2
+          }
+        ],
+        "DefaultValueSettings": {
+          "DrawThickness": 5,
+          "ShapeThickness": 6,
+          "TextSize": 50,
+          "DrawColor": "Text 1 0",
+          "TextColor": "Text 1 0",
+          "IconColor": "Text 1 0",
+          "ShapeColor": "Text 1 0"
+        },
+        "Clarity": 80.0
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 2,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Blue",
+        "@",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "1,54": 0,
+      "1,55": 1,
+      "1,56": 1,
+      "1,57": 1,
+      "1,58": 1,
+      "1,59": 1,
+      "3,16": 2,
+      "3,17": 2,
+      "3,18": 2,
+      "3,19": 2,
+      "3,20": 2,
+      "3,21": 2,
+      "3,22": 2,
+      "3,23": 2,
+      "3,24": 2,
+      "3,25": 2,
+      "3,26": 2,
+      "3,27": 2,
+      "3,28": 2,
+      "4,16": 3,
+      "4,49": 4,
+      "10,39": 5,
+      "17,9": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,3,1,5",
+    "1,9,1,5",
+    "1,15,1,7",
+    "1,31,1,6",
+    "1,47,1,6",
+    "1,54,1,6",
+    "2,15,1,15",
+    "3,39,6,9",
+    "4,3,1,5",
+    "4,8,1,8",
+    "4,16,1,13",
+    "4,29,1,8",
+    "4,49,1,10",
+    "5,3,11,34",
+    "10,39,7,20",
+    "16,8,1,7",
+    "17,9,2,28",
+    "20,3,18,49",
+    "3,3,1,5",
+    "3,8,1,8",
+    "3,16,1,13",
+    "3,29,1,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_母版页",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "imagecell",
+      "Formula": "附件!$AN$4"
+    },
+    {
+      "Name": "attachmentcell",
+      "Formula": "附件!$AN$11"
+    }
+  ]
+}//2t2Jm5Z1t93D+2badDq2Rf7qsAP8/ORtoRCFou9r+4Uo10WXvaqL9eyFe9IJBBySWyXW+FJfESO2k9cB4y5puk7Sy8K+/YkPKRdSSGEXwqcBpCMN+3NPAaVKhynfpHIFgko8RF660UU2PtSUoYVPUKqW9FR+GjsytZNQT6TucA9ucS6incjYyb29x5eAn9+BrVGxiU9ZUziVG4ccnfZTZJU8eOydsk0G0+3qxqQ81cWck3llWGH+kw88mqOSk7zaBUfHEhjt5bvoAzusyRhjtien9NWK3bArDeuFoBuM6gzDhH4OzKvRq/90PwULYHwbkh0sjxWOTFVO7rBzE1KYkVfGkLkhFCT2VIpgvsCiYWee7AhuxLxABwZxHSbmx51mdFxJvnJzR0uoa+2q2X461V3qXy2mabnipQhTGQdoeENtPgxF+rrhIcBYxPq0/FnLaXe6KvwH+Md1FIVobLAlQWBewpt8S5P34ZFfnqLB1VXqW3cbPK/Lixc782EVLgY3aT5KDZ+vGfSisdiIYRjWp/zhNWFsP0wBpN4tUyRSjpVm0NPV6dPDSx4XIc+9IoIGF2unLesNgo9Fv32UgN8GDuRHM7EscRdC1C3vBRd250Z8o/hFO3Jt2GCQL7xVmER5k/4cl3kSJnYmog8tXm2op7u+GguluIsG01aMcAHbyilADUYWC51Cwp4MDqe23+tEuDvyfq2E0r7i8tpPz2UMMCtnS8B1tf7GKQD1Lue3pF1DV1pox5s/1tWNzv0igNCw16sWACTGUre4TABSbCX1p8SM7kyA7A4gtBTsw0CsgdBcb7cZEIIIXta6IUdT5JlbJ1KU8Pm4FXU33CJyAm916S2akxPImD0CdmfBPBQrw01EF+auBy2N/doSR47FV74yHNYWmQQxXo7W5JSVZReUlw==|920

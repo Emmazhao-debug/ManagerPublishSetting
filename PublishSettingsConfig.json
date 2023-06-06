@@ -1,0 +1,167 @@
+[
+  {
+    "Name": "活字格云服务测试",
+    "ApplicationUrl": "https://gcmarket.app.hzgcloud.cn/testaa",
+    "Remark": "葡萄城市场测试版本\r\n2023-6-6",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "IsCloudServer": true,
+      "ServerName": "gcmarket.app.hzgcloud.cn",
+      "UserName": "administrator",
+      "SitePort": 80,
+      "AppName": "testaa",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "用户信息视图",
+    "ApplicationUrl": "http://xa-dd3-emmazy1/用户信息",
+    "Remark": "基础发布设置",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-emmazy1",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "用户信息",
+      "AppStartPage": "页面1",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "扫码登录(localhost:8080)",
+    "ApplicationUrl": "http://localhost:8080/企业微信扫码登录_9",
+    "Remark": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "localhost",
+      "UserName": "publisher",
+      "SitePort": 8080,
+      "AppName": "企业微信扫码登录_9",
+      "AppStartPage": "附件",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true,
+      "PublishUsersToServer": true,
+      "PublishOrganizationsToServer": true
+    }
+  },
+  {
+    "Name": "沙盒发布设置",
+    "ApplicationUrl": "http://3d6c210d-449a-49a2-9bc8-8a82cd072691/Linux应用设置",
+    "Remark": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "3d6c210d-449a-49a2-9bc8-8a82cd072691",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "Linux应用设置",
+      "AppStartPage": "BoxOperatefile",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "发布设置2",
+    "ApplicationUrl": "http://10.32.2.241/publish setting 01",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "10.32.2.241",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "publish setting 01",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "发布设置4",
+    "ApplicationUrl": "https://xa-dd3-emmazy1:8809/库存管理",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-emmazy1",
+      "UserName": "Administrator",
+      "SitePort": 8809,
+      "AppName": "库存管理",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "Https": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "发布设置5",
+    "ApplicationUrl": "http://localhost/酒店管理系统",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "localhost",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "酒店管理系统",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "葡萄城市场-wyn仪表版数据统计(marketplacedata.app.huozigecloud.cn)_20230606",
+    "ApplicationUrl": "http://[fe80::11ec:626a:e1f7:ec0d]/publish setting 03",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "fe80::11ec:626a:e1f7:ec0d%3",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "publish setting 03",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "试用版云服务",
+    "ApplicationUrl": "http://试用版云服务(testforguncy.app.hzgcloud.cn)/试用版本",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "试用版云服务(testforguncy.app.hzgcloud.cn)",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "试用版本",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "发布设置6",
+    "ApplicationUrl": "http://case.huozigecloud.cn/ssssss",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "IsCloudServer": true,
+      "ServerName": "case.huozigecloud.cn",
+      "UserName": "aaaa",
+      "SitePort": 80,
+      "AppName": "ssssss",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "1008611",
+    "ApplicationUrl": "https://10.32.6.79/库存管理(福州)",
+    "Remark": "publih settig\r\n发布设置管理\r\n()(*#_$*(#$*(\r\n",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "10.32.6.79",
+      "UserName": "Administrator",
+      "SitePort": 443,
+      "AppName": "库存管理(福州)",
+      "AppStartPage": "附件",
+      "TakeServeronline": true,
+      "Https": true,
+      "PublishRolesToServer": true
+    }
+  }
+]
