@@ -239,7 +239,16 @@
   },
   {
     "ModuleName": "PublishConfiguration",
-    "ModuleType": 39
+    "State": 1,
+    "LockedBy": {
+      "UserName": "3D6C210D-449A-4\\WDAGUtilityAccount",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2023-06-06T18:42:42.5738154+08:00",
+    "ModuleType": 39,
+    "ToRemoveFiles": [
+      "PublishSettingsConfig.json"
+    ]
   },
   {
     "ModuleName": "Plugin",
