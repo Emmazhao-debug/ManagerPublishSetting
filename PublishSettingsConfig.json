@@ -94,16 +94,15 @@
   },
   {
     "Name": "发布设置4",
-    "ApplicationUrl": "https://xa-dd3-emmazy1:8809/库存管理",
+    "ApplicationUrl": "https://hzgdemo.app.hzgcloud.cn/库存管理",
     "PublishSettings": {
-      "IsPrivateServer": true,
-      "ServerName": "xa-dd3-emmazy1",
+      "IsCloudServer": true,
+      "ServerName": "hzgdemo.app.hzgcloud.cn",
       "UserName": "Administrator",
       "SitePort": 8809,
       "AppName": "库存管理",
       "AppStartPage": "",
       "TakeServeronline": true,
-      "Https": true,
       "PublishRolesToServer": true
     }
   },
