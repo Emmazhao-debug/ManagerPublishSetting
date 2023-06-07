@@ -108,7 +108,7 @@
     }
   },
   {
-    "Name": "发布设置5",
+    "Name": "SandboxPublish_HotelManagement",
     "ApplicationUrl": "http://3d6c210d-449a-49a2-9bc8-8a82cd072691/酒店管理系统",
     "PublishSettings": {
       "IsPrivateServer": true,
@@ -118,7 +118,9 @@
       "AppName": "酒店管理系统",
       "AppStartPage": "BoxOperatefile",
       "TakeServeronline": true,
-      "PublishRolesToServer": true
+      "PublishRolesToServer": true,
+      "PublishUsersToServer": true,
+      "PublishOrganizationsToServer": true
     }
   },
   {
