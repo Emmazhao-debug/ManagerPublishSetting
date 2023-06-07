@@ -96,6 +96,7 @@
     "Name": "发布设置4",
     "ApplicationUrl": "https://hzgdemo.app.hzgcloud.cn/库存管理",
     "PublishSettings": {
+      "IsPrivateServer": true,
       "IsCloudServer": true,
       "ServerName": "hzgdemo.app.hzgcloud.cn",
       "UserName": "Administrator",
@@ -108,14 +109,14 @@
   },
   {
     "Name": "发布设置5",
-    "ApplicationUrl": "http://localhost/酒店管理系统",
+    "ApplicationUrl": "http://3d6c210d-449a-49a2-9bc8-8a82cd072691/酒店管理系统",
     "PublishSettings": {
       "IsPrivateServer": true,
-      "ServerName": "localhost",
-      "UserName": "Administrator",
+      "ServerName": "3d6c210d-449a-49a2-9bc8-8a82cd072691",
+      "UserName": "publisher",
       "SitePort": 80,
       "AppName": "酒店管理系统",
-      "AppStartPage": "",
+      "AppStartPage": "BoxOperatefile",
       "TakeServeronline": true,
       "PublishRolesToServer": true
     }
