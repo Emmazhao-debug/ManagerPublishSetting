@@ -249,7 +249,16 @@
   },
   {
     "ModuleName": "PublishConfiguration",
-    "ModuleType": 39
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "emma.zhao@developertools.com"
+    },
+    "LockDateTime": "2023-06-10T09:38:14.157394+08:00",
+    "ModuleType": 39,
+    "ToRemoveFiles": [
+      "PublishSettingsConfig.json"
+    ]
   },
   {
     "ModuleName": "Plugin",
