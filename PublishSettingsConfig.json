@@ -166,5 +166,20 @@
       "Https": true,
       "PublishRolesToServer": true
     }
+  },
+  {
+    "Name": "验证协同下的忽略",
+    "ApplicationUrl": "https://xa-dd3-emmazy1.grapecity.net/验证协同下的忽略",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-emmazy1.grapecity.net",
+      "UserName": "Administrator",
+      "SitePort": 443,
+      "AppName": "验证协同下的忽略",
+      "AppStartPage": "BoxOperatefile",
+      "TakeServeronline": true,
+      "Https": true,
+      "PublishRolesToServer": true
+    }
   }
 ]
