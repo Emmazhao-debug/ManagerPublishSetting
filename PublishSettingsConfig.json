@@ -15,17 +15,15 @@
   },
   {
     "Name": "用户信息视图",
-    "ApplicationUrl": "https://xa-dd3-emmazy1/用户信息",
+    "ApplicationUrl": "http://xa-dd3-emmazy1/用户信息",
     "Remark": "基础发布设置",
     "PublishSettings": {
       "IsPrivateServer": true,
       "ServerName": "xa-dd3-emmazy1",
       "UserName": "Administrator",
-      "SitePort": 443,
+      "SitePort": 80,
       "AppName": "用户信息",
       "AppStartPage": "BoxOperatefile",
-      "TakeServeronline": true,
-      "Https": true,
       "PublishRolesToServer": true,
       "PublishUsersToServer": true,
       "PublishOrganizationsToServer": true

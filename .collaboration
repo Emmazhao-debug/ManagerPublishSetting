@@ -126,6 +126,10 @@
     "ModuleType": 3
   },
   {
+    "ModuleName": "UserControlPage/显示组件",
+    "ModuleType": 31
+  },
+  {
     "ModuleName": "ServerCommands/华为云存储",
     "ModuleType": 20
   },
@@ -248,9 +252,5 @@
   {
     "ModuleName": "PublishSetting",
     "ModuleType": 41
-  },
-  {
-    "ModuleName": "UserControlPage/显示组件",
-    "ModuleType": 31
   }
 ]
