@@ -1,17 +1,15 @@
 [
   {
     "Name": "活字格云服务测试",
-    "ApplicationUrl": "https://gcmarket.app.hzgcloud.cn/testaa",
+    "ApplicationUrl": "",
     "Remark": "葡萄城市场测试版本\r\n2023-6-6",
     "PublishSettings": {
-      "IsPrivateServer": true,
       "IsCloudServer": true,
-      "ServerName": "gcmarket.app.hzgcloud.cn",
+      "ServerName": "",
       "UserName": "administrator",
       "SitePort": 80,
       "AppName": "testaa",
       "AppStartPage": "",
-      "TakeServeronline": true,
       "PublishRolesToServer": true
     }
   },
@@ -26,7 +24,6 @@
       "SitePort": 80,
       "AppName": "用户信息",
       "AppStartPage": "页面1",
-      "TakeServeronline": true,
       "PublishRolesToServer": true
     }
   },
