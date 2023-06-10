@@ -15,16 +15,19 @@
   },
   {
     "Name": "用户信息视图",
-    "ApplicationUrl": "http://xa-dd3-emmazy1/用户信息",
+    "ApplicationUrl": "https://xa-dd3-emmazy1/用户信息",
     "Remark": "基础发布设置",
     "PublishSettings": {
       "IsPrivateServer": true,
       "ServerName": "xa-dd3-emmazy1",
       "UserName": "Administrator",
-      "SitePort": 80,
+      "SitePort": 443,
       "AppName": "用户信息",
-      "AppStartPage": "页面1",
-      "PublishRolesToServer": true
+      "AppStartPage": "BoxOperatefile",
+      "Https": true,
+      "PublishRolesToServer": true,
+      "PublishUsersToServer": true,
+      "PublishOrganizationsToServer": true
     }
   },
   {
@@ -106,11 +109,11 @@
   },
   {
     "Name": "SandboxPublish_HotelManagement",
-    "ApplicationUrl": "http://3d6c210d-449a-49a2-9bc8-8a82cd072691/酒店管理系统",
+    "ApplicationUrl": "http://localhost/酒店管理系统",
     "PublishSettings": {
       "IsPrivateServer": true,
-      "ServerName": "3d6c210d-449a-49a2-9bc8-8a82cd072691",
-      "UserName": "publisher",
+      "ServerName": "localhost",
+      "UserName": "Administrator",
       "SitePort": 80,
       "AppName": "酒店管理系统",
       "AppStartPage": "BoxOperatefile",
